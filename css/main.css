@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html, body{
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: #eee;
+  }
+  #Container{
+    margin-top: 1em;
+  }
+
+  .container {
+    width: 75%;
+    margin: 5em auto;
+  }
+  
+  .portfolio {
+    max-width: 1500px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .pagination{
+  width: auto;
+  margin: 0 auto;
+  padding-top: 20px;
+  }
+  
+  .pagination a{
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a.jp-current{
+    color: red;
+  }
+  
+  .jp-disabled{
+    display: none;
+  }
+
+  
+  
+  .blue {
+    background-color: blue;
+    color: white;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+  }
+
+  
+  button {
+    background: #110b0b;
+    border: none;
+    color: white;
+    padding: .65em;
+    border-radius: 5px;
+  }
+  
+  input {
+    padding: .5em;
+  }
+
+  .search-input{
+    width: 400px;
+    margin-left: 10px;
+  }
+  
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+
+  .details {
+    font-size: 16px;
+  }
+
+  .mix{
+    display:none;
+    text-align: left;
+    width: 23%;
+    height: 200px;
+    margin: 0.5em 1%;
+    background-color:#fff;
+    color: #212121;
+    margin:10px;
+    box-shadow: 0px 2px 7px rgba(32, 32, 32, 0.1);
+  }
+
+
+  fieldset{
+    border: none;
+  }
+
+  .group{
+    display: inline-block;
+    max-height: 34px;
+    margin-left: -8px;
+  }
+
+  .reset-button{
+    background-color: #fff;
+    color: #212121;
+    margin-left: 15px;
+    border-radius: 0px;
+    padding: 12px;
+    font-family: 'Roboto Mono', monospace;
+  }
+
+
+
+
+label input {
+  margin-right:100px;
+}
+
+#ck-button {
+  margin:4px;
+  background-color:#929292;
+  border:1px solid #D0D0D0;
+  color: #fff;
+  overflow:auto;
+  float:left;
+}
+
+#ck-button:hover {
+  background: #13BA6A;
+  color: #fff;
+}
+
+#ck-button label {
+  float:left;
+  width: 6em;
+}
+
+#ck-button label span {
+  text-align:center;
+  padding:10px 0px;
+  display:block;
+}
+
+#ck-button label input {
+  position:absolute;
+  top:-20px;
+}
+
+#ck-button input:checked + span {
+  background: #13BA6A;
+  color: #fff;
+}
